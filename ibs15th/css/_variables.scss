@@ -1,0 +1,10 @@
+@forward "../../css/common/abstracts/abstracts";
+
+@mixin mask-shape-star {
+  mask: var(--shape-star) no-repeat center/contain;
+}
+
+
+$process-chevron: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cuse xlink:href='%23stroke0_55_2278' stroke='white'/%3E%3Cuse xlink:href='%23stroke0_55_2278' stroke='%2360C7FF'/%3E%3Cdefs%3E%3Cpath id='stroke0_55_2278' d='M7.75732 3.51465L16.2426 11.9999L7.75732 20.4852' stroke-width='1.5'/%3E%3C/defs%3E%3C/svg%3E%0A");
+
+$ico-close: url("data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M27.0542 3.05676C27.5749 2.53608 28.4192 2.53609 28.9399 3.05676C29.4605 3.57746 29.4606 4.42185 28.9399 4.9425L17.8853 15.9962L28.9458 27.0577C29.4665 27.5785 29.4665 28.4228 28.9458 28.9435C28.4251 29.4641 27.5817 29.464 27.061 28.9435L16.0005 17.882L4.93994 28.9435C4.41926 29.4642 3.57491 29.4642 3.0542 28.9435C2.53358 28.4228 2.53355 27.5784 3.0542 27.0577L14.1147 15.9962L3.06104 4.9425C2.54035 4.42179 2.54032 3.57745 3.06104 3.05676C3.5817 2.53628 4.42515 2.53628 4.9458 3.05676L15.9995 14.1105L27.0542 3.05676Z' fill='white'/%3E%3C/svg%3E%0A");

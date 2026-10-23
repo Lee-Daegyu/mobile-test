@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'Paperlogy';
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+  src: local('Paperlogy Thin'), local('Paperlogy-1Thin'),
+        url('./Paperlogy-1Thin.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Paperlogy';
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+  src: local('Paperlogy ExtraLight'), local('Paperlogy-2ExtraLight'),
+        url('./Paperlogy-2ExtraLight.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Paperlogy';
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: local('Paperlogy Light'), local('Paperlogy-3Light'),
+        url('./Paperlogy-3Light.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Paperlogy';
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: local('Paperlogy Regular'), local('Paperlogy-4Regular'),
+        url('./Paperlogy-4Regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Paperlogy';
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: local('Paperlogy Medium'), local('Paperlogy-5Medium'),
+        url('./Paperlogy-5Medium.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Paperlogy';
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: local('Paperlogy SemiBold'), local('Paperlogy-6SemiBold'),
+        url('./Paperlogy-6SemiBold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Paperlogy';
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: local('Paperlogy Bold'), local('Paperlogy-7Bold'),
+        url('./Paperlogy-7Bold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Paperlogy';
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+  src: local('Paperlogy ExtraBold'), local('Paperlogy-8ExtraBold'),
+        url('./Paperlogy-8ExtraBold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Paperlogy';
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+  src: local('Paperlogy Black'), local('Paperlogy-9Black'),
+        url('./Paperlogy-9Black.woff2') format('woff2');
+}
