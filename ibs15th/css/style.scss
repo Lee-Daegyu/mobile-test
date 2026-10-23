@@ -49,7 +49,7 @@ body {
 }
 #container {
   --focus-ring-color: #FFF;
-  max-width: 2560px; margin: 0 auto; width: 100%; position: relative; background: url(/ibs15th/images/body-bg.webp) no-repeat center top;
+  max-width: 2560px; margin: 0 auto; width: 100%; position: relative; background: url(../images/body-bg.webp) no-repeat center top;
   @include mq(2560.02,min) {
     &::after {content: ''; position: absolute; inset: 0; background: linear-gradient(to right,var(--color-body-bg) 1%, #0000 3% 97%, var(--color-body-bg) 99%); pointer-events: none;}
   }
@@ -91,7 +91,7 @@ body {
   }
 
   .ibs-logo {
-    width: 211px; aspect-ratio: 211 / 47; background: url(/ibs15th/images/logo.svg) no-repeat center/contain; margin-bottom: 40px;
+    width: 211px; aspect-ratio: 211 / 47; background: url(../images/logo.svg) no-repeat center/contain; margin-bottom: 40px;
     @include mq(1179) {width: vw-clamp(1179,211,360,175); margin-bottom: vw-clamp(1179,40,360,32);}
   }
 
@@ -204,8 +204,8 @@ body {
       &:has(.is-lock:first-child) {
         &::before,
         &::after {content: ''; position: absolute; inset: 0 -2.4107143%; background: no-repeat center 45%/contain; pointer-events: none;}
-        &::before {background-image: url(/ibs15th/images/calendar-chain-back.svg) ;}
-        &::after {background-image: url(/ibs15th/images/calendar-chain-front.svg) ;}
+        &::before {background-image: url(../images/calendar-chain-back.svg) ;}
+        &::after {background-image: url(../images/calendar-chain-front.svg) ;}
         &:nth-child(even)::before,
         &:nth-child(even)::after {transform: scaleX(-1);}
       }
@@ -298,8 +298,8 @@ body {
           @include mq(575) {display: block;}
           &::before {content: ''; position: absolute; inset: 0 50%;}
           &::after {
-            background: url(/ibs15th/images/lock-star.svg) no-repeat center/4.375em, url("data:image/svg+xml,%3Csvg width='8' height='2' viewBox='0 0 8 2' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.997053 0.5H0.502947C0.225181 0.5 0 0.723858 0 1C0 1.27614 0.225181 1.5 0.502947 1.5H0.997053C1.27484 1.5 1.5 1.27614 1.5 1C1.5 0.723858 1.27484 0.5 0.997053 0.5Z' fill='%2348ADFF'/%3E%3C/svg%3E%0A") repeat-x center; aspect-ratio: auto; mask: none; position: absolute; inset: 2em 0 0; width: 100%;
-            @include mq(575) {background: url(/ibs15th/images/lock-star-mo.svg) no-repeat center/2.6em, url("data:image/svg+xml,%3Csvg width='4' height='2' viewBox='0 0 4 2' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.997053 0.5H0.502947C0.225181 0.5 0 0.723858 0 1C0 1.27614 0.225181 1.5 0.502947 1.5H0.997053C1.27484 1.5 1.5 1.27614 1.5 1C1.5 0.723858 1.27484 0.5 0.997053 0.5Z' fill='%2348ADFF'/%3E%3C/svg%3E%0A") repeat-x center; display: block;}
+            background: url(../images/lock-star.svg) no-repeat center/4.375em, url("data:image/svg+xml,%3Csvg width='8' height='2' viewBox='0 0 8 2' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.997053 0.5H0.502947C0.225181 0.5 0 0.723858 0 1C0 1.27614 0.225181 1.5 0.502947 1.5H0.997053C1.27484 1.5 1.5 1.27614 1.5 1C1.5 0.723858 1.27484 0.5 0.997053 0.5Z' fill='%2348ADFF'/%3E%3C/svg%3E%0A") repeat-x center; aspect-ratio: auto; mask: none; position: absolute; inset: 2em 0 0; width: 100%;
+            @include mq(575) {background: url(../images/lock-star-mo.svg) no-repeat center/2.6em, url("data:image/svg+xml,%3Csvg width='4' height='2' viewBox='0 0 4 2' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.997053 0.5H0.502947C0.225181 0.5 0 0.723858 0 1C0 1.27614 0.225181 1.5 0.502947 1.5H0.997053C1.27484 1.5 1.5 1.27614 1.5 1C1.5 0.723858 1.27484 0.5 0.997053 0.5Z' fill='%2348ADFF'/%3E%3C/svg%3E%0A") repeat-x center; display: block;}
           }
         }
         .tit {display: none;}
@@ -343,7 +343,7 @@ body {
   }
 
   .rest-before {
-    --rest-sky: url(/ibs15th/images/rest-before-cloud.webp);
+    --rest-sky: url(../images/rest-before-cloud.webp);
     padding-top: 108px; padding-bottom: 263px;
     @include mq(1599) {
       padding-top: vw-clamp(1599,108,320,80);
@@ -356,7 +356,7 @@ body {
       @include mq(767) {font-size: vw-clamp(767,10,320,7);}
       .door-bg {
         position: absolute; inset: 0; border-radius: 20em 20em .5em .5em; background: linear-gradient(180deg, #C7E5FF 0%, #052842 43.12%, #052842 96.07%, #C7E5FF 104.5%); filter: drop-shadow(0px 0px 4.5em rgba(0, 119, 255,.44)) drop-shadow(0 0 12em rgba(56, 189, 255, 0.6));
-        &::before {content: ''; position: absolute; inset: 0; background: linear-gradient(rgba(0, 15, 32, 0.66),rgba(0, 15, 32, 0.66)) content-box, url(/ibs15th/images/rest-door-bg.webp) no-repeat center/cover content-box; border: 2px solid transparent; border-radius: inherit; z-index: -5; }
+        &::before {content: ''; position: absolute; inset: 0; background: linear-gradient(rgba(0, 15, 32, 0.66),rgba(0, 15, 32, 0.66)) content-box, url(../images/rest-door-bg.webp) no-repeat center/cover content-box; border: 2px solid transparent; border-radius: inherit; z-index: -5; }
         .door-item {
           position: absolute; inset: 0; z-index: -5; perspective: 90em;
           .door-side {
@@ -390,7 +390,7 @@ body {
   }
 
   .rest-after {
-    --rest-sky: url(/ibs15th/images/rest-after-cloud.webp);
+    --rest-sky: url(../images/rest-after-cloud.webp);
     padding-top: 56px; z-index: 1; text-align: center; padding-bottom: 100px; min-height: 660px;
     @include mq(1179) {min-height: vw-clamp(1179,660,320,420);}
 
@@ -416,7 +416,7 @@ body {
 
 
 .main-movie {
-  padding-bottom: 96px; margin-top: -1px; text-align: center; background: url(/ibs15th/images/movie-bg.webp) no-repeat no-repeat center top; color: #001024; position: relative;
+  padding-bottom: 96px; margin-top: -1px; text-align: center; background: url(../images/movie-bg.webp) no-repeat no-repeat center top; color: #001024; position: relative;
   display: none;
   @include mq(1179) {padding-bottom: vw-clamp(1179,96,320,68);}
   
@@ -464,16 +464,16 @@ body {
       @include mq(1179) {width: vw-clamp(1179,2560,320,700);}
     }
     &.back {
-      --img: url(/ibs15th/images/cloud-3.svg);
+      --img: url(../images/cloud-3.svg);
     }
     &.left {
-      --img: url(/ibs15th/images/cloud-4.svg);
+      --img: url(../images/cloud-4.svg);
       &::after {
         @include mq(1179) {width: vw-clamp(1179,2560,320,400); left: vw-clamp(1179,0,320,40);}
       }
     }
     &.right {
-      --img: url(/ibs15th/images/cloud-5.svg); z-index: 1;
+      --img: url(../images/cloud-5.svg); z-index: 1;
       &::after {
         @include mq(1179) {width: vw-clamp(1179,2560,320,400); right: vw-clamp(1179,0,320,-10);}
       }
@@ -504,7 +504,7 @@ body {
     @include mq(1023) {max-width: none; border-radius: 0;}
     &::before,
     &::after {content: ''; position: absolute; inset: 0; border-radius: inherit; pointer-events: none;}
-    &::before {background: url(/ibs15th/images/detail-bg.webp) no-repeat center bottom/cover; mix-blend-mode: lighten;}
+    &::before {background: url(../images/detail-bg.webp) no-repeat center bottom/cover; mix-blend-mode: lighten;}
     &::after {background: linear-gradient(180deg, rgba(0, 6, 24, 0) 53%, rgba(0, 6, 24, .2)); mix-blend-mode: overlay;}
   }
 

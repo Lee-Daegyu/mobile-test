@@ -344,7 +344,7 @@ body:has(dialog:modal) {
   margin: 0 auto;
   width: 100%;
   position: relative;
-  background: url(/ibs15th/images/body-bg.webp) no-repeat center top;
+  background: url(../images/body-bg.webp) no-repeat center top;
 }
 @media (min-width: 2560.02px) {
   #container::after {
@@ -465,7 +465,7 @@ body:has(dialog:modal) {
 .main-hero .ibs-logo {
   width: 211px;
   aspect-ratio: 211/47;
-  background: url(/ibs15th/images/logo.svg) no-repeat center/contain;
+  background: url(../images/logo.svg) no-repeat center/contain;
   margin-bottom: 40px;
 }
 @media (max-width: 1179.98px) {
@@ -781,10 +781,10 @@ body:has(dialog:modal) {
   pointer-events: none;
 }
 .main-calendar .calendar-list .row:has(.is-lock:first-child)::before {
-  background-image: url(/ibs15th/images/calendar-chain-back.svg);
+  background-image: url(../images/calendar-chain-back.svg);
 }
 .main-calendar .calendar-list .row:has(.is-lock:first-child)::after {
-  background-image: url(/ibs15th/images/calendar-chain-front.svg);
+  background-image: url(../images/calendar-chain-front.svg);
 }
 .main-calendar .calendar-list .row:has(.is-lock:first-child):nth-child(even)::before, .main-calendar .calendar-list .row:has(.is-lock:first-child):nth-child(even)::after {
   transform: scaleX(-1);
@@ -1023,7 +1023,7 @@ body:has(dialog:modal) {
   inset: 0 50%;
 }
 .main-calendar .calendar-list .item:where(.is-lock) .line::after {
-  background: url(/ibs15th/images/lock-star.svg) no-repeat center/4.375em, url("data:image/svg+xml,%3Csvg width='8' height='2' viewBox='0 0 8 2' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.997053 0.5H0.502947C0.225181 0.5 0 0.723858 0 1C0 1.27614 0.225181 1.5 0.502947 1.5H0.997053C1.27484 1.5 1.5 1.27614 1.5 1C1.5 0.723858 1.27484 0.5 0.997053 0.5Z' fill='%2348ADFF'/%3E%3C/svg%3E%0A") repeat-x center;
+  background: url(../images/lock-star.svg) no-repeat center/4.375em, url("data:image/svg+xml,%3Csvg width='8' height='2' viewBox='0 0 8 2' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.997053 0.5H0.502947C0.225181 0.5 0 0.723858 0 1C0 1.27614 0.225181 1.5 0.502947 1.5H0.997053C1.27484 1.5 1.5 1.27614 1.5 1C1.5 0.723858 1.27484 0.5 0.997053 0.5Z' fill='%2348ADFF'/%3E%3C/svg%3E%0A") repeat-x center;
   aspect-ratio: auto;
   -webkit-mask: none;
           mask: none;
@@ -1033,7 +1033,7 @@ body:has(dialog:modal) {
 }
 @media (max-width: 575.98px) {
   .main-calendar .calendar-list .item:where(.is-lock) .line::after {
-    background: url(/ibs15th/images/lock-star-mo.svg) no-repeat center/2.6em, url("data:image/svg+xml,%3Csvg width='4' height='2' viewBox='0 0 4 2' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.997053 0.5H0.502947C0.225181 0.5 0 0.723858 0 1C0 1.27614 0.225181 1.5 0.502947 1.5H0.997053C1.27484 1.5 1.5 1.27614 1.5 1C1.5 0.723858 1.27484 0.5 0.997053 0.5Z' fill='%2348ADFF'/%3E%3C/svg%3E%0A") repeat-x center;
+    background: url(../images/lock-star-mo.svg) no-repeat center/2.6em, url("data:image/svg+xml,%3Csvg width='4' height='2' viewBox='0 0 4 2' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.997053 0.5H0.502947C0.225181 0.5 0 0.723858 0 1C0 1.27614 0.225181 1.5 0.502947 1.5H0.997053C1.27484 1.5 1.5 1.27614 1.5 1C1.5 0.723858 1.27484 0.5 0.997053 0.5Z' fill='%2348ADFF'/%3E%3C/svg%3E%0A") repeat-x center;
     display: block;
   }
 }
@@ -1101,7 +1101,7 @@ html[data-phase=after] .main-rest .rest-wrap.rest-after {
   }
 }
 .main-rest .rest-before {
-  --rest-sky: url(/ibs15th/images/rest-before-cloud.webp);
+  --rest-sky: url(../images/rest-before-cloud.webp);
   padding-top: 108px;
   padding-bottom: 263px;
 }
@@ -1136,7 +1136,7 @@ html[data-phase=after] .main-rest .rest-wrap.rest-after {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(rgba(0, 15, 32, 0.66), rgba(0, 15, 32, 0.66)) content-box, url(/ibs15th/images/rest-door-bg.webp) no-repeat center/cover content-box;
+  background: linear-gradient(rgba(0, 15, 32, 0.66), rgba(0, 15, 32, 0.66)) content-box, url(../images/rest-door-bg.webp) no-repeat center/cover content-box;
   border: 2px solid transparent;
   border-radius: inherit;
   z-index: -5;
@@ -1220,7 +1220,7 @@ html[data-phase=after] .main-rest .rest-wrap.rest-after {
   margin-top: 2em;
 }
 .main-rest .rest-after {
-  --rest-sky: url(/ibs15th/images/rest-after-cloud.webp);
+  --rest-sky: url(../images/rest-after-cloud.webp);
   padding-top: 56px;
   z-index: 1;
   text-align: center;
@@ -1282,7 +1282,7 @@ html[data-phase=after] .main-rest .rest-wrap.rest-after {
   padding-bottom: 96px;
   margin-top: -1px;
   text-align: center;
-  background: url(/ibs15th/images/movie-bg.webp) no-repeat no-repeat center top;
+  background: url(../images/movie-bg.webp) no-repeat no-repeat center top;
   color: #001024;
   position: relative;
   display: none;
@@ -1412,10 +1412,10 @@ html[data-phase=after] .main-movie {
   }
 }
 .main-movie .cloud.back {
-  --img: url(/ibs15th/images/cloud-3.svg);
+  --img: url(../images/cloud-3.svg);
 }
 .main-movie .cloud.left {
-  --img: url(/ibs15th/images/cloud-4.svg);
+  --img: url(../images/cloud-4.svg);
 }
 @media (max-width: 1179.98px) {
   .main-movie .cloud.left::after {
@@ -1424,7 +1424,7 @@ html[data-phase=after] .main-movie {
   }
 }
 .main-movie .cloud.right {
-  --img: url(/ibs15th/images/cloud-5.svg);
+  --img: url(../images/cloud-5.svg);
   z-index: 1;
 }
 @media (max-width: 1179.98px) {
@@ -1502,7 +1502,7 @@ html[data-phase=after] .main-movie {
   pointer-events: none;
 }
 .event-detail .detail-box::before {
-  background: url(/ibs15th/images/detail-bg.webp) no-repeat center bottom/cover;
+  background: url(../images/detail-bg.webp) no-repeat center bottom/cover;
   mix-blend-mode: lighten;
 }
 .event-detail .detail-box::after {

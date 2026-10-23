@@ -117,7 +117,7 @@
   });
 
   const boot = async () => {
-    const response = await fetch('/ibs15th/stories.json');
+    const response = await fetch('stories.json');
     if (!response.ok) throw new Error('stories.json');
     const list = await response.json();
     const stories = Object.fromEntries(list.map((story) => [String(story.id), story]));
